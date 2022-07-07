@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Courgette&family=Indie+Flower&family=Nanum+Myeongjo&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Press+Start+2P&family=Song+Myung&display=swap');
+
+.toon_head h1 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 5em;
+    font-size: 30px;
+}
+
+.toon_head h3 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: normal;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.feed-main {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.article-body {
+    display: flex;
+    font-family: 'Nanum Myeongjo', serif;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.ep1-control h3{
+    font-style: normal;
+    margin: 13rem 0 0 35rem;
+}
+.ep1-control h4{
+    font-style: normal;
+    margin: 1rem 0 0 35.5rem;
+}
+.ep1-control img{
+    position: absolute;
+    top: 56rem;
+    left: 60rem;
+    width: 350x;
+    height: 350px;
+    border-radius: inherit;
+}
