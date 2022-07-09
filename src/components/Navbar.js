@@ -20,9 +20,6 @@ const Navbar = () => {
                 <Link to="/Contact">Contact</Link>
             </li>
         </ul>
-        <div className="Btn">
-            <Link to="#"><i class="fa-solid fa-bars"></i></Link>
-        </div>
      </div>
   )
 }

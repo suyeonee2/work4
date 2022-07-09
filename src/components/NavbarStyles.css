@@ -39,21 +39,19 @@
 }
 @media (max-width:768px) {
     .header {
-        height: 28vh;
+        height: 20vh;
         flex-direction: column;
     }
     .nav-menu {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         width: 100%;
-        line-height: 0%;
-    }   
-    .Btn {
-        display: block;
-        position: absolute;
-        font-size: 22px;
-        right: 32px;
-        top: 28px;
-        color: rgb(106, 106, 106);
+    }
+    .nav-menu li{
+        margin: 0.5rem;
+    }
+    .nav-menu li a{
+        font-size: 15px;
+        font-weight: 200s;
     }
 }
