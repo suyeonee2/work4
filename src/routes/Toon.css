@@ -45,3 +45,35 @@
     height: 350px;
     border-radius: inherit;
 }
+@media (max-width:768px) {
+    .toon_head h1 {
+        font-family: 'Nanum Myeongjo', serif;
+        font-style: normal;
+        text-align: center;
+        margin-top: 3em;
+        font-size: 20px;
+    }
+    .toon_head h3 {
+        font-family: 'Nanum Myeongjo', serif;
+        font-style: normal;
+        text-align: center;
+        line-height: 3rem;
+        font-size: 14px;
+    }
+    .ep1-control h3{
+        font-style: normal;
+        margin: 27rem 0 0 4rem;
+    }
+    .ep1-control h4{
+        font-style: normal;
+        text-align: center;
+        margin: 1rem 0 20rem 4rem;
+    }
+    .ep1-control img{
+        position: absolute;
+        top: 40rem;
+        left: 2rem;
+        width: 350x;
+        height: 350px;
+    }
+}

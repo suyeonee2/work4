@@ -21,9 +21,15 @@
     color: rgb(87, 87, 87);
 }
 @media (max-width:768px) {
+    .mask {
+        width: 400px;
+        height: auto;
+        position: relative;
+    }
     .into-img{
         display: flex;
+        align-items: centers;
         width: 230px;
-        margin: 15rem auto 0;
+        margin: 13rem auto 0;
     }
 }

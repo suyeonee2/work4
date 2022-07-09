@@ -39,7 +39,7 @@
 }
 @media (max-width:768px) {
     .header {
-        height: 20vh;
+        height: 25vh;
         flex-direction: column;
     }
     .nav-menu {
