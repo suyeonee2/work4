@@ -20,7 +20,7 @@
     margin: 3rem 0rem 0;
     font-family: 'Nanum Myeongjo', serif;
 }
-@media (max-width:768px) {
+@media (max-width:780px) {
     .book-container {
         flex-direction: column;
         width: 450px;

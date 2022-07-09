@@ -45,7 +45,7 @@
     height: 350px;
     border-radius: inherit;
 }
-@media (max-width:768px) {
+@media (max-width:780px) {
     .toon_head h1 {
         font-family: 'Nanum Myeongjo', serif;
         font-style: normal;

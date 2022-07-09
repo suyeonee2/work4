@@ -9,7 +9,6 @@ const Contact = () => {
       <Navbar/>
       <HeroImg/>
 
-
       <div className='contact_container'>
         <form>
           <label>Your name</label>

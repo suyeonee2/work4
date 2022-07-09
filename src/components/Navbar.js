@@ -1,12 +1,17 @@
 import "./NavbarStyles.css"
-
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from "react-router-dom"
  
 const Navbar = () => {
-  return (
+    const [active, setActive] = useState("nav-menu");
+    const navToggle = () => {
+        active === 'nav-menu' ? setActive('nav-menu nav_active') : setActive('nav-menu');
+    };
+
+    return (
     <div className="header">
-        <ul className="nav-menu">
+        {/* <ul className="nav-menu"> */}
+            <ul className={active}>
             <li>
                 <Link to="/">Home</Link>
             </li>
@@ -20,8 +25,11 @@ const Navbar = () => {
                 <Link to="/Contact">Contact</Link>
             </li>
         </ul>
-     </div>
-  )
+        <div onClick={navToggle} className="nav_toggler">
+            <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+ )
 }
 
 export default Navbar

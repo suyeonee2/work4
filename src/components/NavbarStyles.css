@@ -6,7 +6,6 @@
     box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
     padding: 1rem;
     top: 0;
-    z-index: 99999;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
@@ -28,30 +27,47 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.2rem;
-    font-weight: 500;
     font-weight: 200;
 }
 .nav-menu li a:hover {
     color:skyblue;
 }
-.Btn {
+.nav_toggler {
+    cursor: pointer;
     display: none;
 }
-@media (max-width:768px) {
-    .header {
-        height: 25vh;
-        flex-direction: column;
+@media screen and (max-width:780px) {
+    .header{
+        background-color: #fff;
+        width: 100%;
+        height: 15vh;
+        box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+        padding: 1rem;
     }
     .nav-menu {
+        position: absolute;
+        top: 2vh;
+        left: 40px;
+        width: 100%;
         flex-direction: column;
         align-items: flex-start;
-        width: 100%;
+        transform: translateX(100%);
     }
-    .nav-menu li{
-        margin: 0.5rem;
+    .nav-menu li {
+        margin: 2px;
     }
     .nav-menu li a{
-        font-size: 15px;
-        font-weight: 200s;
+        font-size: 13px;
     }
+    .nav_toggler {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: rgb(148, 148, 148);
+        font-size: 16px;
+    }
+}
+.nav_active {
+    transform: translateX(0);
 }
