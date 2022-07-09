@@ -39,19 +39,16 @@
 }
 @media (max-width:768px) {
     .header {
-        display: none;
         height: 28vh;
         flex-direction: column;
     }
     .nav-menu {
-        display: none;
         flex-direction: column;
         align-items: center;
         width: 100%;
         line-height: 0%;
     }   
     .Btn {
-        display: none;
         display: block;
         position: absolute;
         font-size: 22px;
